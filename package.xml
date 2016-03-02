@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>external_emergency_button_trigger</name>
+  <version>0.0.0</version>
+  <description>The external_emergency_button_trigger package contains example(s) 
+    of how to publish on the topic '/external_stop_trigger' of type std_msgs/Bool
+    to stop the robot controllers that control joints.</description>
+
+  <maintainer email="sam.pfeiffer@pal-robotics.com">Sam Pfeiffer</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>
